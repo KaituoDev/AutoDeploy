@@ -116,6 +116,7 @@ public class AutoDeploy extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPluginLoad(PluginLoadEvent event) {
+        Bukkit.broadcastMessage(event.getFileName());
         fileNames.remove(event.getFileName());
     }
 
