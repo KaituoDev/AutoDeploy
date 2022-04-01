@@ -1,0 +1,14 @@
+name: AutoDeploy
+main: fun.kaituo.AutoDeploy
+version: 1.0
+api-version: 1.18
+depend: [PlugManX]
+authors: [MinazukiiChocola,YFshadaow]
+commands:
+  adclear:
+    description: clear history for all unhandled plugins
+    default: op
+permissions:
+  autodeploy.notify:
+    description: Players with this node will be notified for plugin reload
+    default: op
