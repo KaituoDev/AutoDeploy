@@ -65,7 +65,7 @@ public class AutoDeploy extends JavaPlugin implements Listener {
             serverFactory.addListener("default", listener);
             BaseUser user = new BaseUser();
             user.setName(c.getString("username"));
-            user.setPassword("password");
+            user.setPassword(c.getString("password"));
             user.setHomeDirectory("/home/yfshadaow/servers/minigame/plugins/");
             List<Authority> authorities = new ArrayList<>();
             authorities.add(new WritePermission());
