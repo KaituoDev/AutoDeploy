@@ -4,3 +4,4 @@ passive-ports-start: 0
 passive-ports-end: 0
 username: 0
 password: 0
+home-directory: './plugins'
