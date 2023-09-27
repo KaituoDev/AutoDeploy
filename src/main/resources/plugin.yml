@@ -2,7 +2,6 @@ name: AutoDeploy
 main: fun.kaituo.AutoDeploy
 version: 1.0
 api-version: 1.18
-depend: [PlugManX]
 authors: [MinazukiiChocola,YFshadaow]
 permissions:
   autodeploy.notify:
